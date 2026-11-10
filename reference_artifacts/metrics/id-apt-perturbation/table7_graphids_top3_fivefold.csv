@@ -1,0 +1,7 @@
+Model,Malware Family,Test Domain,F1-Score,Recall,Precision,Delta F1 (%),Task
+GraphIDS,GoogleAd_FakeBat_Redline_Gozi,Original,0.3035,0.7047,0.1949,,family-vs-benign binary detection
+GraphIDS,GoogleAd_FakeBat_Redline_Gozi,Shifted,0.1639,1.0000,0.0892,-46.00%,family-vs-benign binary detection
+GraphIDS,GoogleAd_Matanbuchus_Danabot,Original,0.2952,0.6959,0.1889,,family-vs-benign binary detection
+GraphIDS,GoogleAd_Matanbuchus_Danabot,Shifted,0.1607,1.0000,0.0874,-45.55%,family-vs-benign binary detection
+GraphIDS,Latrodectus_VNC,Original,0.3132,0.6923,0.2040,,family-vs-benign binary detection
+GraphIDS,Latrodectus_VNC,Shifted,0.1748,1.0000,0.0957,-44.20%,family-vs-benign binary detection

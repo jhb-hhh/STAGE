@@ -1,0 +1,52 @@
+baselines:
+  FlowTransformer:
+    in_channels: 8
+    hidden_dim: 128
+    nhead: 2
+    num_layers: 2
+    dropout: 0.1
+
+  TS-IDS:
+    in_channels: 8
+    hidden_dim: 128
+    num_layers: 2
+    nhead: 4
+    dropout: 0.2
+
+  E-T-GraphSAGE:
+    in_channels: 8
+    hidden_dim: 128
+    num_gnn_layers: 2
+    num_trans_layers: 2
+    nhead: 4
+    dropout: 0.3
+
+  DIDS-MFL:
+    task: native_multiclass_or_external_binary
+    hidden_dim: 128
+    diffusion_layers: 1
+    diffusion_alpha: 0.02
+    dropout_implicit: 0.5
+    dropout_explicit: 0.0
+    learning_rate: 0.0001
+    epochs: 50
+    disentangle_beta: 1.0
+    disentangle_gamma: 0.1
+    disentangle_eta: 0.1
+    disentangle_alpha: 0.1
+
+  GraphIDS:
+    task: binary_anomaly_detection
+    hidden_dim: 64
+    ae_embedding_dim: 32
+    num_heads: 4
+    num_layers: 1
+    mask_ratio: 0.15
+    window_size: 512
+    learning_rate: 0.00007423525164428174
+    encoder_weight_decay: 0.6
+    ae_weight_decay: 0.011263928281120002
+    dropout: 0.5
+    ae_dropout: 0.2
+    patience: 20
+    epochs: 100

@@ -1,0 +1,20 @@
+# Core deep learning stack
+# Install PyTorch according to your CUDA version:
+# https://pytorch.org/get-started/locally/
+torch>=2.8.0
+torch-geometric==2.6.1
+
+# Data processing and evaluation
+numpy==2.0.2
+pandas==2.3.3
+scikit-learn==1.6.1
+tqdm==4.67.1
+PyYAML==6.0.3
+
+# Packet processing
+scapy==2.6.1
+
+# LLM evaluation
+transformers==4.57.6
+openai==2.8.1
+matplotlib

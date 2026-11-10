@@ -1,0 +1,23 @@
+explainers:
+  endogenous:
+    name: STAGE
+    top_k: 5
+    checkpoint_fold: 2
+
+  posthoc_baselines:
+    - GNNExplainer
+    - PGExplainer
+    - SHAP
+    - LIME
+
+benchmark:
+  sample_count: 200
+  metrics:
+    - IoU
+    - Precision
+    - FidPlus
+    - FidMinus
+    - RobFidPlus
+    - RobFidMinus
+    - Consistency
+    - TimeSec

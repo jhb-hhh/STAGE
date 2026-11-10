@@ -1,0 +1,138 @@
+{
+  "model": "DIDS-MFL",
+  "fold": 0,
+  "selection": {
+    "model": "DIDS-MFL",
+    "fold": 0,
+    "candidate": 0,
+    "lr": 0.0001,
+    "epoch": 3,
+    "validation_macro_f1": 0.9272030651340997,
+    "threshold": 0.5553836822509766,
+    "checkpoint": "outputs/workspace/dapt_benchmark_20261105/runs/DIDS-MFL/fold_0/candidate_0/best.pt"
+  },
+  "metrics": {
+    "Accuracy": 0.8333333333333334,
+    "Precision": 0.7857142857142857,
+    "Recall": 1.0,
+    "F1_Macro": 0.8036363636363637,
+    "FPR": 0.42857142857142855,
+    "MCC": 0.6700593942604899,
+    "Precision_Macro": 0.8928571428571428,
+    "Recall_Macro": 0.7857142857142857,
+    "tn": 4,
+    "fp": 3,
+    "fn": 0,
+    "tp": 11
+  },
+  "predictions": [
+    {
+      "graph_id": 0,
+      "true": 0,
+      "score": 0.5779829025268555,
+      "pred": 1
+    },
+    {
+      "graph_id": 5,
+      "true": 0,
+      "score": 0.5762593746185303,
+      "pred": 1
+    },
+    {
+      "graph_id": 14,
+      "true": 0,
+      "score": 0.5646257996559143,
+      "pred": 1
+    },
+    {
+      "graph_id": 23,
+      "true": 1,
+      "score": 0.5627093315124512,
+      "pred": 1
+    },
+    {
+      "graph_id": 24,
+      "true": 1,
+      "score": 0.5808283090591431,
+      "pred": 1
+    },
+    {
+      "graph_id": 25,
+      "true": 1,
+      "score": 0.5837017297744751,
+      "pred": 1
+    },
+    {
+      "graph_id": 26,
+      "true": 1,
+      "score": 0.5854141116142273,
+      "pred": 1
+    },
+    {
+      "graph_id": 27,
+      "true": 1,
+      "score": 0.5895643830299377,
+      "pred": 1
+    },
+    {
+      "graph_id": 28,
+      "true": 1,
+      "score": 0.5881983637809753,
+      "pred": 1
+    },
+    {
+      "graph_id": 56,
+      "true": 1,
+      "score": 0.5624139904975891,
+      "pred": 1
+    },
+    {
+      "graph_id": 57,
+      "true": 1,
+      "score": 0.5767658948898315,
+      "pred": 1
+    },
+    {
+      "graph_id": 58,
+      "true": 1,
+      "score": 0.5837833285331726,
+      "pred": 1
+    },
+    {
+      "graph_id": 59,
+      "true": 1,
+      "score": 0.5838057994842529,
+      "pred": 1
+    },
+    {
+      "graph_id": 76,
+      "true": 1,
+      "score": 0.5680989623069763,
+      "pred": 1
+    },
+    {
+      "graph_id": 81,
+      "true": 0,
+      "score": 0.5520790815353394,
+      "pred": 0
+    },
+    {
+      "graph_id": 86,
+      "true": 0,
+      "score": 0.5461212396621704,
+      "pred": 0
+    },
+    {
+      "graph_id": 90,
+      "true": 0,
+      "score": 0.5540167689323425,
+      "pred": 0
+    },
+    {
+      "graph_id": 96,
+      "true": 0,
+      "score": 0.5392203330993652,
+      "pred": 0
+    }
+  ]
+}

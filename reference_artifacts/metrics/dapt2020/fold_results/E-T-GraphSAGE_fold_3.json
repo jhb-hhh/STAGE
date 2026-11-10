@@ -1,0 +1,168 @@
+{
+  "model": "E-T-GraphSAGE",
+  "fold": 3,
+  "selection": {
+    "model": "E-T-GraphSAGE",
+    "fold": 3,
+    "candidate": 0,
+    "lr": 0.0001,
+    "epoch": 1,
+    "validation_macro_f1": 0.8055555555555556,
+    "threshold": 0.3164994716644287,
+    "checkpoint": "outputs/workspace/dapt_benchmark_20261105/runs/E-T-GraphSAGE/fold_3/candidate_0/best.pt"
+  },
+  "metrics": {
+    "Accuracy": 0.5217391304347826,
+    "Precision": 0.5,
+    "Recall": 1.0,
+    "F1_Macro": 0.41025641025641024,
+    "FPR": 0.9166666666666666,
+    "MCC": 0.2041241452319315,
+    "Precision_Macro": 0.75,
+    "Recall_Macro": 0.5416666666666666,
+    "tn": 1,
+    "fp": 11,
+    "fn": 0,
+    "tp": 11
+  },
+  "predictions": [
+    {
+      "graph_id": 3,
+      "true": 0,
+      "score": 0.32610398530960083,
+      "pred": 1
+    },
+    {
+      "graph_id": 10,
+      "true": 0,
+      "score": 0.43090036511421204,
+      "pred": 1
+    },
+    {
+      "graph_id": 11,
+      "true": 0,
+      "score": 0.41311389207839966,
+      "pred": 1
+    },
+    {
+      "graph_id": 18,
+      "true": 0,
+      "score": 0.42875561118125916,
+      "pred": 1
+    },
+    {
+      "graph_id": 19,
+      "true": 1,
+      "score": 0.4196544289588928,
+      "pred": 1
+    },
+    {
+      "graph_id": 20,
+      "true": 1,
+      "score": 0.38597217202186584,
+      "pred": 1
+    },
+    {
+      "graph_id": 42,
+      "true": 0,
+      "score": 0.4258615970611572,
+      "pred": 1
+    },
+    {
+      "graph_id": 43,
+      "true": 0,
+      "score": 0.43880701065063477,
+      "pred": 1
+    },
+    {
+      "graph_id": 44,
+      "true": 0,
+      "score": 0.4166634678840637,
+      "pred": 1
+    },
+    {
+      "graph_id": 45,
+      "true": 0,
+      "score": 0.42941561341285706,
+      "pred": 1
+    },
+    {
+      "graph_id": 46,
+      "true": 1,
+      "score": 0.4486449062824249,
+      "pred": 1
+    },
+    {
+      "graph_id": 47,
+      "true": 1,
+      "score": 0.45415806770324707,
+      "pred": 1
+    },
+    {
+      "graph_id": 48,
+      "true": 1,
+      "score": 0.48608532547950745,
+      "pred": 1
+    },
+    {
+      "graph_id": 68,
+      "true": 1,
+      "score": 0.4216107428073883,
+      "pred": 1
+    },
+    {
+      "graph_id": 69,
+      "true": 1,
+      "score": 0.4074394404888153,
+      "pred": 1
+    },
+    {
+      "graph_id": 70,
+      "true": 1,
+      "score": 0.40314117074012756,
+      "pred": 1
+    },
+    {
+      "graph_id": 71,
+      "true": 1,
+      "score": 0.40011048316955566,
+      "pred": 1
+    },
+    {
+      "graph_id": 79,
+      "true": 1,
+      "score": 0.3224162757396698,
+      "pred": 1
+    },
+    {
+      "graph_id": 84,
+      "true": 0,
+      "score": 0.31281647086143494,
+      "pred": 0
+    },
+    {
+      "graph_id": 88,
+      "true": 1,
+      "score": 0.3259120285511017,
+      "pred": 1
+    },
+    {
+      "graph_id": 93,
+      "true": 0,
+      "score": 0.4259398877620697,
+      "pred": 1
+    },
+    {
+      "graph_id": 94,
+      "true": 0,
+      "score": 0.4003644585609436,
+      "pred": 1
+    },
+    {
+      "graph_id": 99,
+      "true": 0,
+      "score": 0.3194827735424042,
+      "pred": 1
+    }
+  ]
+}

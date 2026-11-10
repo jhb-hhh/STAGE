@@ -1,0 +1,15 @@
+{
+  "Benign": 0,
+  "CVE-2017-0199_AgentTesla": 1,
+  "GoogleAd_FakeBat_Redline_Gozi": 2,
+  "GoogleAd_Matanbuchus_Danabot": 3,
+  "GuLoader_RemcosRAT": 4,
+  "Kongtuke_ClickFix_Lumma": 5,
+  "Latrodectus_VNC": 6,
+  "Lumma_Ghostsocks": 7,
+  "Macro_SSLoad_CobaltStrike": 8,
+  "ParrotTDS_SocGholish_AsyncRAT": 9,
+  "SmartApeSG_CAPTCHA_RAT_StealCv2": 10,
+  "SmartApeSG_FakeUpdate_RAT_StealC": 11,
+  "TA577_Pikabot_CobaltStrike": 12
+}

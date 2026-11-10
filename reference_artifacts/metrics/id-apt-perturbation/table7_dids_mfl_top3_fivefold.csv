@@ -1,0 +1,7 @@
+Model,Malware Family,Test Domain,F1-Score,Recall,Precision,Delta F1 (%),Task
+DIDS-MFL,CVE-2017-0199_AgentTesla,Original,0.6388,0.5029,0.8796,,13-class ID-APT family classification
+DIDS-MFL,CVE-2017-0199_AgentTesla,Shifted,0.5704,0.4519,0.7767,-10.70%,13-class ID-APT family classification
+DIDS-MFL,TA577_Pikabot_CobaltStrike,Original,0.9142,0.8522,0.9868,,13-class ID-APT family classification
+DIDS-MFL,TA577_Pikabot_CobaltStrike,Shifted,0.8179,0.7634,0.8911,-10.53%,13-class ID-APT family classification
+DIDS-MFL,SmartApeSG_CAPTCHA_RAT_StealCv2,Original,0.9130,0.8738,0.9572,,13-class ID-APT family classification
+DIDS-MFL,SmartApeSG_CAPTCHA_RAT_StealCv2,Shifted,0.8211,0.8606,0.7897,-10.06%,13-class ID-APT family classification

@@ -1,0 +1,13 @@
+training:
+  batch_size: 16
+  learning_rate: 0.0003
+  weight_decay: 0.0001
+  epochs: 20
+  use_weighted_sampler: true
+  num_workers: 0
+  device: auto
+
+evaluation:
+  folds: [0, 1, 2, 3, 4]
+  default_fold: 2
+  benign_label: 0

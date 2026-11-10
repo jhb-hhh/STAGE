@@ -1,0 +1,65 @@
+project:
+  name: STAGE-artifact
+  root: .
+
+data:
+  raw_dir: sample_data/raw
+  processed_dir: sample_data
+  pcap_dir: sample_data/pcaps
+  label_file: sample_data/labels/labels.csv
+  graph_dir: sample_data/graphs
+  shifted_graph_dir: sample_data/graphs_shifted
+  label_map: sample_data/label_mapping.json
+  split_dir: sample_data/splits
+
+outputs:
+  root: outputs
+  checkpoint_dir: reference_artifacts/checkpoints
+  stage_checkpoint_dir: reference_artifacts/checkpoints/stage
+  ablation_checkpoint_dir: reference_artifacts/checkpoints/ablation
+  baseline_checkpoint_dir: reference_artifacts/checkpoints/baselines
+  explainer_checkpoint_dir: reference_artifacts/checkpoints/explainers
+  metrics_dir: reference_artifacts/metrics
+  explanation_dir: reference_artifacts/explanations
+  llm_report_dir: reference_artifacts/llm_reports
+  paper_table_dir: reference_artifacts/paper_tables
+  log_dir: outputs/logs
+
+path_profiles:
+  reference:
+    data:
+      graph_dir: sample_data/graphs
+      shifted_graph_dir: sample_data/graphs_shifted
+      label_map: sample_data/label_mapping.json
+      split_dir: sample_data/splits
+
+    outputs:
+      checkpoint_dir: reference_artifacts/checkpoints
+      stage_checkpoint_dir: reference_artifacts/checkpoints/stage
+      ablation_checkpoint_dir: reference_artifacts/checkpoints/ablation
+      baseline_checkpoint_dir: reference_artifacts/checkpoints/baselines
+      explainer_checkpoint_dir: reference_artifacts/checkpoints/explainers
+      metrics_dir: reference_artifacts/metrics
+      explanation_dir: reference_artifacts/explanations
+      llm_report_dir: reference_artifacts/llm_reports
+      paper_table_dir: reference_artifacts/paper_tables
+      log_dir: reference_artifacts/logs
+
+  workspace:
+    data:
+      graph_dir: outputs/workspace/graphs
+      shifted_graph_dir: outputs/workspace/graphs_shifted
+      label_map: outputs/workspace/graphs/label_mapping.json
+      split_dir: outputs/workspace/splits
+
+    outputs:
+      checkpoint_dir: outputs/workspace/checkpoints
+      stage_checkpoint_dir: outputs/workspace/checkpoints/stage
+      ablation_checkpoint_dir: outputs/workspace/checkpoints/ablation
+      baseline_checkpoint_dir: outputs/workspace/checkpoints/baselines
+      explainer_checkpoint_dir: outputs/workspace/checkpoints/explainers
+      metrics_dir: outputs/workspace/metrics
+      explanation_dir: outputs/workspace/explanations
+      llm_report_dir: outputs/workspace/llm_reports
+      paper_table_dir: outputs/workspace/paper_tables
+      log_dir: outputs/workspace/logs

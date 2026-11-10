@@ -1,0 +1,16 @@
+model:
+  num_node_features: 8
+
+  hidden_dim: 64
+  dropout: 0.1
+
+  gcn_hidden_dim: 64
+  gcn_heads: 4
+
+  vocab_size_proto: 256
+  vocab_size_port: 1026
+  vocab_size_flags: 64
+
+  num_lstm_layers: 2
+  classifier_hidden_dim: 64
+  classifier_dropout: 0.3

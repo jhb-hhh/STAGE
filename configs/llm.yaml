@@ -1,0 +1,22 @@
+llm:
+  exam_dir: outputs/llm_reports/exam_papers
+  result_dirs:
+    gpt-4o-mini: outputs/llm_reports/exam_results_gpt-4o-mini
+    deepseek-chat: outputs/llm_reports/exam_results_deepseek-chat
+    llama-3-8b: outputs/llm_reports/exam_results_llama-3-8b
+    qwen2.5-7b: outputs/llm_reports/exam_results_qwen2.5-7b
+
+metrics:
+  - BHR
+  - SCS
+  - IP
+  - F1
+  - Latency
+  - Compression
+
+notes:
+  effective_samples:
+    gpt-4o-mini: 99
+    deepseek-chat: 99
+    llama-3-8b: 96
+    qwen2.5-7b: 99

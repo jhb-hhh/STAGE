@@ -1,0 +1,22 @@
+baselines:
+  FlowTransformer:
+    in_channels: 8
+    hidden_dim: 128
+    nhead: 2
+    num_layers: 2
+    dropout: 0.1
+
+  TS-IDS:
+    in_channels: 8
+    hidden_dim: 128
+    num_layers: 2
+    nhead: 4
+    dropout: 0.2
+
+  E-T-GraphSAGE:
+    in_channels: 8
+    hidden_dim: 128
+    num_gnn_layers: 2
+    num_trans_layers: 2
+    nhead: 4
+    dropout: 0.3

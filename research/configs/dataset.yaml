@@ -1,0 +1,25 @@
+dataset:
+  name: ID-APT
+  num_classes: 13
+  graph_format: pyg_data
+  graph_pattern: graphs_chunk_*.pt
+  label_mapping: label_mapping.json
+
+graph:
+  node_feature_dim: 8
+  edge_attr_dim: 2
+  window_size_nodes: 3000
+  stride_nodes: 1500
+
+splits:
+  type: five_fold
+  files:
+    - fold_0.json
+    - fold_1.json
+    - fold_2.json
+    - fold_3.json
+    - fold_4.json
+
+notes:
+  use_prebuilt_graphs: true
+  regenerate_full_dataset_by_default: false

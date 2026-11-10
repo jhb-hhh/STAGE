@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stage-apt"
+version = "0.1.0"
+description = "STAGE: Spatio-Temporal APT Graph Engine"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    {name = "STAGE Authors"}
+]
+dependencies = [
+    "torch>=2.8.0",
+    "torch-geometric==2.6.1",
+    "numpy==2.0.2",
+    "pandas==2.3.3",
+    "scikit-learn==1.6.1",
+    "tqdm==4.67.1",
+    "PyYAML==6.0.3",
+    "scapy==2.6.1",
+    "transformers==4.57.6",
+    "openai==2.8.1"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

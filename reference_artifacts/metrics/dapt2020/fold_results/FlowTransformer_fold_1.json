@@ -1,0 +1,144 @@
+{
+  "model": "FlowTransformer",
+  "fold": 1,
+  "selection": {
+    "model": "FlowTransformer",
+    "fold": 1,
+    "candidate": 0,
+    "lr": 0.001,
+    "epoch": 35,
+    "validation_macro_f1": 0.8465473145780051,
+    "threshold": 0.9576144814491272,
+    "checkpoint": "outputs/workspace/dapt_benchmark_20261105/runs/FlowTransformer/fold_1/candidate_0/best.pt"
+  },
+  "metrics": {
+    "Accuracy": 0.7368421052631579,
+    "Precision": 1.0,
+    "Recall": 0.6666666666666666,
+    "F1_Macro": 0.7076923076923077,
+    "FPR": 0.0,
+    "MCC": 0.5443310539518174,
+    "Precision_Macro": 0.7222222222222222,
+    "Recall_Macro": 0.8333333333333333,
+    "tn": 4,
+    "fp": 0,
+    "fn": 5,
+    "tp": 10
+  },
+  "predictions": [
+    {
+      "graph_id": 1,
+      "true": 0,
+      "score": 0.06949781626462936,
+      "pred": 0
+    },
+    {
+      "graph_id": 6,
+      "true": 0,
+      "score": 0.9503920674324036,
+      "pred": 0
+    },
+    {
+      "graph_id": 7,
+      "true": 0,
+      "score": 0.9288984537124634,
+      "pred": 0
+    },
+    {
+      "graph_id": 15,
+      "true": 1,
+      "score": 0.11443374305963516,
+      "pred": 0
+    },
+    {
+      "graph_id": 29,
+      "true": 1,
+      "score": 0.9681133031845093,
+      "pred": 1
+    },
+    {
+      "graph_id": 30,
+      "true": 1,
+      "score": 0.9685515761375427,
+      "pred": 1
+    },
+    {
+      "graph_id": 31,
+      "true": 1,
+      "score": 0.9679459929466248,
+      "pred": 1
+    },
+    {
+      "graph_id": 32,
+      "true": 1,
+      "score": 0.9682072997093201,
+      "pred": 1
+    },
+    {
+      "graph_id": 33,
+      "true": 1,
+      "score": 0.9687737226486206,
+      "pred": 1
+    },
+    {
+      "graph_id": 34,
+      "true": 1,
+      "score": 0.9693034291267395,
+      "pred": 1
+    },
+    {
+      "graph_id": 35,
+      "true": 1,
+      "score": 0.9569252729415894,
+      "pred": 0
+    },
+    {
+      "graph_id": 60,
+      "true": 1,
+      "score": 0.9686503410339355,
+      "pred": 1
+    },
+    {
+      "graph_id": 61,
+      "true": 1,
+      "score": 0.9686487913131714,
+      "pred": 1
+    },
+    {
+      "graph_id": 62,
+      "true": 1,
+      "score": 0.9686387181282043,
+      "pred": 1
+    },
+    {
+      "graph_id": 63,
+      "true": 1,
+      "score": 0.9687360525131226,
+      "pred": 1
+    },
+    {
+      "graph_id": 77,
+      "true": 1,
+      "score": 0.09114490449428558,
+      "pred": 0
+    },
+    {
+      "graph_id": 82,
+      "true": 0,
+      "score": 0.061044540256261826,
+      "pred": 0
+    },
+    {
+      "graph_id": 91,
+      "true": 1,
+      "score": 0.05418101325631142,
+      "pred": 0
+    },
+    {
+      "graph_id": 97,
+      "true": 1,
+      "score": 0.08165998011827469,
+      "pred": 0
+    }
+  ]
+}

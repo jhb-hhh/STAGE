@@ -1,0 +1,70 @@
+project:
+  name: STAGE
+  root: .
+
+data:
+  raw_dir: data/raw
+  processed_dir: data/processed
+  pcap_dir: data/processed/pcaps
+  label_file: data/processed/labels/labels.csv
+  graph_dir: data/processed/graphs
+  shifted_graph_dir: data/processed/graphs_shifted
+  label_map: data/processed/graphs/label_mapping.json
+  split_dir: data/splits
+  dapt2020_dir: data/external/dapt2020/graphs
+
+outputs:
+  root: outputs
+  checkpoint_dir: outputs/checkpoints
+  stage_checkpoint_dir: outputs/checkpoints/stage
+  ablation_checkpoint_dir: outputs/checkpoints/ablation
+  baseline_checkpoint_dir: outputs/checkpoints/baselines
+  explainer_checkpoint_dir: outputs/checkpoints/explainers
+  metrics_dir: outputs/metrics
+  explanation_dir: outputs/explanations
+  llm_report_dir: outputs/llm_reports
+  log_dir: outputs/logs
+
+# Path profiles used by tools/run.py.
+# - reference: read-only paper artifacts for result reproduction.
+# - workspace: regenerated artifacts created by rebuild commands.
+path_profiles:
+  reference:
+    data:
+      graph_dir: data/reference/graphs
+      shifted_graph_dir: data/reference/graphs_shifted
+      label_map: data/reference/graphs/label_mapping.json
+      split_dir: data/reference/splits
+
+    outputs:
+      checkpoint_dir: outputs/reference/checkpoints
+      stage_checkpoint_dir: outputs/reference/checkpoints/stage
+      ablation_checkpoint_dir: outputs/reference/checkpoints/ablation
+      baseline_checkpoint_dir: outputs/reference/checkpoints/baselines
+      explainer_checkpoint_dir: outputs/reference/checkpoints/explainers
+      metrics_dir: outputs/reference/metrics
+      explanation_dir: outputs/reference/explanations
+      llm_report_dir: outputs/reference/llm_reports
+      log_dir: outputs/reference/logs
+
+  workspace:
+    data:
+      graph_dir: outputs/workspace/graphs
+      shifted_graph_dir: outputs/workspace/graphs_shifted
+      label_map: outputs/workspace/graphs/label_mapping.json
+      split_dir: outputs/workspace/splits
+
+    outputs:
+      checkpoint_dir: outputs/workspace/checkpoints
+      stage_checkpoint_dir: outputs/workspace/checkpoints/stage
+      ablation_checkpoint_dir: outputs/workspace/checkpoints/ablation
+      baseline_checkpoint_dir: outputs/workspace/checkpoints/baselines
+      explainer_checkpoint_dir: outputs/workspace/checkpoints/explainers
+      metrics_dir: outputs/workspace/metrics
+      explanation_dir: outputs/workspace/explanations
+      llm_report_dir: outputs/workspace/llm_reports
+      log_dir: outputs/workspace/logs
+
+    external:
+      data:
+        graph_dir: data/external/dapt2020/graphs

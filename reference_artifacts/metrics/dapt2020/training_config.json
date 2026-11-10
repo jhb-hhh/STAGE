@@ -1,0 +1,46 @@
+{
+  "epochs": 100,
+  "patience": 20,
+  "min_epochs": 20,
+  "candidates": 2,
+  "learning_rates": {
+    "TS-IDS": 0.001,
+    "FlowTransformer": 0.001,
+    "E-T-GraphSAGE": 0.0001,
+    "GraphIDS": 7.423525164428174e-05,
+    "DIDS-MFL": 0.0001,
+    "STAGE": 0.0003
+  },
+  "candidate_multipliers": [
+    1,
+    3
+  ],
+  "selection": "validation macro-F1 with validation-only threshold for ALL methods",
+  "seed": "20261105 + fold, identical seed for LR candidates",
+  "batch_size": 1,
+  "gradient_accumulation": 4,
+  "binary_positive": "attack",
+  "std_ddof": 1,
+  "runner_sha256": "e2456a8576217806f9f1b863dccdfd69df1479a107c797ab233ac2c8643aeaaf",
+  "manifest_sha256": "a339ffa28d8a0296c6c220cdeeaa94815bdbcf6669674fddb1ecaa3e0058d71e",
+  "source_hashes": {
+    "src/stage/baselines/__init__.py": "07e6f127e43397b290dc290c1f57b8b13267583888b5afd165f50256fd728250",
+    "src/stage/baselines/dids_mfl/__init__.py": "f0bdaa932855e58e9e8b4ff53b296cfd41ecc85b419926efe2227484a87d858e",
+    "src/stage/baselines/dids_mfl/config.py": "98b06b601a7f9d6376e7c983970f63891f7942bec90b6d03ff7d8aaae0d8eb9b",
+    "src/stage/baselines/dids_mfl/model.py": "39c3eefd763948c9380eaead2675e3dd25069b99bfb9252b7cf219f97da5a3ca",
+    "src/stage/baselines/et_graphsage/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/stage/baselines/et_graphsage/config.py": "acdaebc478053fe446820e702261ea5cf8e6ae887d1e61a5bb2145c0673f3f5b",
+    "src/stage/baselines/et_graphsage/model.py": "db46e79b4db5b2115ecd276cc74e741a7619e88f1517400af2da98dadd477ba5",
+    "src/stage/baselines/flow_transformer/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/stage/baselines/flow_transformer/config.py": "9b205411a6bb083aff4d254b6657d0dec71170f5c5609a0e0554c9541b438446",
+    "src/stage/baselines/flow_transformer/model.py": "f08e4e0de5fd895931719960e3bccf2211050ad1e4f5888e4afda4a96587e0ab",
+    "src/stage/baselines/graphids/__init__.py": "a0d4e5a585d37472da176acb79791bb3d1382998287ca2edc5ad26a3336513c1",
+    "src/stage/baselines/graphids/config.py": "ad8f2f28c7ff47c45ff16336d7d1892327173a63110cb3d7f69e6b16ce033d9f",
+    "src/stage/baselines/graphids/model.py": "50ec75132d67317abfea238d5f052a7a98855f5589b7fc0027fefcd050acfc15",
+    "src/stage/baselines/registry.py": "c53fb698b08106cd2478a90f7ebb626287175f38c2237022a37220482411188b",
+    "src/stage/baselines/ts_ids/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/stage/baselines/ts_ids/config.py": "0b76b29a1e70af46402c6c535dd0d452e4c851cbbf4d2be8f950d2da9d849d66",
+    "src/stage/baselines/ts_ids/model.py": "228645471d58902e19140fef89bdc36e4a3ca81ffb109c83355bcf12701649b2"
+  },
+  "stage_source_sha256": "fc4a58de20836d34dedb13502ebb2df8b67b9532941ecb251843bf0311787acc"
+}
