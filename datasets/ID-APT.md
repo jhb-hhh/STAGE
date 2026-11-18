@@ -1,6 +1,6 @@
 # ID-APT
 
-ID-APT comprises 23,719 graph windows across 12 attack scenarios and a benign class. One graph node represents one network flow. The [sanitized sample](../sample_data/) contains 65 graphs with separate sample indices. The [five full-data split files](../research/data/reference/splits/) refer to the complete graph collection; they cannot be applied directly to the sample.
+ID-APT comprises 23,719 graph windows across 12 attack scenarios and a benign class. One graph node represents one network flow. The [sanitized sample](../sample_data/README.md) contains 65 graphs with separate sample indices. The [five full-data split files](../research/data/reference/splits/README.md) refer to the complete graph collection; they cannot be applied directly to the sample.
 
 ## Data availability during anonymous review
 

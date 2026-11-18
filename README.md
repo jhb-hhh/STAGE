@@ -6,7 +6,7 @@ STAGE is a research implementation for graph-based APT detection, flow-evidence 
 
 | Dataset | Access and description |
 | --- | --- |
-| ID-APT | [Description](datasets/ID-APT.md), [65-graph sanitized sample](sample_data/), [full-data split indices](research/data/reference/splits/), and [archive manifest](manifest/idapt-manifest.json). The complete graph archives are distributed separately; the owner-identifying download URL is omitted from this double-blind copy. |
+| ID-APT | [Description](datasets/ID-APT.md), [65-graph sanitized sample](sample_data/README.md), [full-data split indices](research/data/reference/splits/README.md), and [archive manifest](manifest/idapt-manifest.json). The complete graph archives are distributed separately; the owner-identifying download URL is omitted from this double-blind copy. |
 | DAPT 2020 | [Authors' download](https://gitlab.com/asu22/dapt2020) and [preparation instructions](datasets/DAPT2020.md). |
 | Four external cases | [Original capture pages and case descriptions](datasets/real-cases.md). |
 
