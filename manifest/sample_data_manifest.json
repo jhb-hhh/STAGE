@@ -1,6 +1,5 @@
 {
   "sample_graph_file": "sample_data/graphs/graphs_chunk_000.pt",
-  "reference_checkpoint": "reference_artifacts/checkpoints/stage/stage_reference_checkpoint.pth",
   "num_graphs": 65,
   "num_classes": 13,
   "max_per_class": 5,

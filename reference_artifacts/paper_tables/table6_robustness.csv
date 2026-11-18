@@ -1,5 +1,0 @@
-Model,Original_F1,Shifted_F1,Original_Recall,Shifted_Recall,Original_Precision,Shifted_Precision,Original_Accuracy,Shifted_Accuracy,F1_Drop
-TS-IDS,0.8018,0.7464,0.7444,0.7013,0.8999,0.8306,0.8284,0.7761,6.91%
-FlowTransformer,0.8811,0.4578,0.8726,0.5426,0.9034,0.5672,0.8870,0.3874,48.05%
-E-T-GraphSAGE,0.8125,0.8095,0.7774,0.7743,0.8717,0.8691,0.8657,0.8617,0.36%
-STAGE,0.9577,0.9587,0.9487,0.9487,0.9671,0.9691,0.9671,0.9673,-0.10%

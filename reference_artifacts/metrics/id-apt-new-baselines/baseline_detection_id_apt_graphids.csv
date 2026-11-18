@@ -1,2 +1,0 @@
-Model,Accuracy,Precision,Recall,F1_Macro,FPR,MCC,Task,Dataset
-GraphIDS,0.6283±0.0145,0.6363±0.0170,0.6320±0.0147,0.6264±0.0146,0.2933±0.0624,0.2683±0.0314,binary,ID-APT
